@@ -10,7 +10,7 @@ steps:
     type: build
     dockerfile: Dockerfile
     description: Builds my service
-    image_name: antweiss/otoorders
+    image_name: irudakov/otoorders
     working_directory: ${{main_clone}}
     tag: ${{CF_SHORT_REVISION}}
   push-the-image:
